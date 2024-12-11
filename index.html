@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haymaker Tree & Lawn</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+<header class="site-header">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#hero">
+          <img src="assets/images/logo.jpg" alt="Haymaker Tree & Lawn Logo" />
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:5555555555" class="call-link">Call Us</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <!-- Overlay to darken the background -->
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero content -->
+    <div class="hero-content">
+      <h1 class="hero-title">HAYMAKER TREE & LAWN</h1>
+      <p class="hero-subtitle">
+        Let us enhance the beauty and health of your landscape with our professional services.
+      </p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn primary-btn">Our Services</a>
+        <a href="#contact" class="btn secondary-btn">Get a Quote</a>
+      </div>
+    </div>
+    
+    <!-- Slideshow wrapper -->
+    <div class="hero-slideshow">
+      <div class="slide slide1"></div>
+      <div class="slide slide2"></div>
+      <div class="slide slide3"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-padding services-section">
+    <div class="services-header">
+      <h2>Our Services</h2>
+      <p class="section-subtitle">Comprehensive solutions for all your outdoor needs.</p>
+    </div>
+    <div class="services-grid">
+      <figure class="service-card">
+        <img src="assets/images/treetrim.jpg" alt="Tree Trimming" />
+        <figcaption>
+          <h3>Tree Trimming &amp; Pruning</h3>
+          <p>Maintain the health and shape of your trees through expert pruning techniques.</p>
+        </figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="assets/images/stump.jpg" alt="Stump Removal" />
+        <figcaption>
+          <h3>Stump Removal</h3>
+          <p>Remove unwanted stumps safely and efficiently for a cleaner, safer yard.</p>
+        </figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="assets/images/lawncare.jpg" alt="Lawn Care" />
+        <figcaption>
+          <h3>Comprehensive Lawn Care</h3>
+          <p>From mowing to fertilization, let us keep your lawn lush and vibrant.</p>
+        </figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="assets/images/landscape.jpg"Landscape Design" />
+        <figcaption>
+          <h3>Landscape Design</h3>
+          <p>Transform your outdoor space into a personal paradise with our design experts.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+<!-- Estimate Section -->
+<section id="estimate" class="section-padding estimate-section">
+    <div class="estimate-container">
+      <figure class="estimate-image">
+        <img src="assets/images/marcali.jpg" alt="The Owners" />
+        <figcaption class="sr-only">Owners of Haymaker Tree & Lawn</figcaption>
+      </figure>
+      <div class="estimate-text">
+        <h2 class="estimate-heading">Tree Experts at Your Service</h2>
+        <p>
+          At Haymaker Tree & Lawn, we specialize in transforming your outdoor spaces into flourishing landscapes. No project is too big or too small for our certified professionals. Equipped with the latest tools and techniques, we can operate efficiently and safely, even in challenging or confined areas.
+        </p>
+        <h2 class="estimate-subheading">Get a Free Estimate</h2>
+        <p>
+          We’re always ready to help! Call us at 
+          <a href="tel:5555555555" class="phone-link">(555) 555-5555</a> 
+          to schedule your <strong>FREE ESTIMATE</strong>. We work year-round and are available 24/7 for emergencies. Let our certified experts handle the toughest jobs and shape your yard into a serene, vibrant oasis you’ll love for years to come.
+        </p>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding about-section">
+    <div class="about-container">
+      <figure class="about-image">
+        <img src="assets/images/team.jpg" alt="Our Team" />
+        <figcaption class="sr-only">A photo of our dedicated team</figcaption>
+      </figure>
+      <div class="about-text">
+        <h2 class="about-heading">About Haymaker Tree & Lawn</h2>
+        <p>
+          For over fifty years, Haymaker Tree & Lawn has been committed to delivering top-quality tree care and lawn maintenance services. Our certified arborists and lawn care experts employ industry-leading techniques and state-of-the-art equipment to ensure your landscape thrives year-round.
+        </p>
+        <p>
+          We pride ourselves on personalized service, timely project completion, and unwavering dedication to preserving the natural beauty of your property. Join countless satisfied customers who trust our experience, passion, and commitment to excellence.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding contact-section">
+    <div class="contact-header">
+      <h2>Contact Us</h2>
+      <p class="section-subtitle">We’d love to hear from you! Get in touch for a free consultation or quote.</p>
+    </div>
+    <div class="contact-form-container">
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="first-name" class="sr-only">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required aria-label="First Name" />
+            <span class="field-icon">
+              <img src="images/icon-user.svg" alt="" aria-hidden="true">
+            </span>
+          </div>
+          <div class="form-field">
+            <label for="last-name" class="sr-only">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required aria-label="Last Name" />
+            <span class="field-icon">
+              <img src="images/icon-user.svg" alt="" aria-hidden="true">
+            </span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="tel" class="sr-only">Phone Number</label>
+            <input type="tel" id="tel" name="tel" placeholder="Phone Number" required aria-label="Phone Number" />
+            <span class="field-icon">
+              <img src="images/icon-phone.svg" alt="" aria-hidden="true">
+            </span>
+          </div>
+          <div class="form-field">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required aria-label="Email" />
+            <span class="field-icon">
+              <img src="images/icon-email.svg" alt="" aria-hidden="true">
+            </span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field textarea-field">
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-label="Your Message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">HAYMAKER TREE & LAWN</div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:5555555555" class="call-link">Call Us</a>
+        </div>
+      <div class="footer-social">
+        <a href="#"><img src="assets/icon/facebook copy.png" alt="Facebook"></a>
+        <a href="#"><img src="assets/icon/instagram copy.png" alt="Instagram"></a>
+        <a href="#"><img src="assets/icon/twitter copy.png" alt="Twitter"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Haymaker Tree & Lawn. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
